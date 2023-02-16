@@ -1,0 +1,249 @@
+/*Google  Font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+/* Common styles */
+body {
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.btn-primary {
+    background-color: tomato;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+/*=========== Header section========= */
+/* ----Navbar---- */
+header {
+    background: rgba(255, 144, 14, 0.1);
+    padding: 5px;
+    margin-bottom: 85px;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 228px;
+    margin-right: 240px;
+
+}
+
+nav h2 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.banner-title {
+    width: 862px;
+    text-align: center;
+    margin: auto;
+}
+
+.banner-title h1 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+/*============ Feature section ==========*/
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.feature-images {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.feature-content {
+    width: 537px;
+    margin-left: 73px;
+}
+
+.feature-content h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+/* Exprience Section */
+.exprience {
+    display: flex;
+    width: 1440px;
+    margin: 130px 240px;
+}
+
+.exprience-contents {
+    width: 586px;
+}
+
+.exprience-image {
+    width: 800px;
+    margin-left: 146px;
+}
+
+.exprience-title {
+    width: 468px;
+    font-weight: 700;
+    font-size: 45px;
+    border-left: 6px solid #FF900E;
+    padding-left: 21px;
+}
+
+.exprience-content {
+    background: #FFFFFF;
+    padding: 30px 42px 30px 30px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.exprience-content-title {
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+/* Exprience button */
+.exprience-btn {
+    color: #FFFFFF;
+    text-align: center;
+    width: 342px;
+    height: 150px;
+    background: #FF900E;
+    border-radius: 8px;
+    position: relative;
+    bottom: 132px;
+    left: -69px;
+    padding: 46px 42px;
+}
+
+.exprience-btn h1 {
+
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.exprience-btn p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/*=========== Fact section======== */
+.facts {
+    display: flex;
+    width: 1440px;
+    margin: auto;
+    justify-content: space-evenly;
+
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-left: 240px;
+}
+
+.fact-description {
+    font-weight: 400;
+    font-size: 16px;
+    width: 542px;
+    color: #727272;
+    margin-left: 240px;
+}
+
+.fact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 242px;
+    height: 242px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 180px;
+}
+
+.fact-number {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    text-align: center;
+}
+
+.fact p {
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/*=========== Sponsor section========= */
+.sponsors{
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    margin: auto;
+}
+.sponsor-title-descripiton{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 542px; */
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sponsor img{
+        filter: grayscale(100%);
+        margin-bottom: 130px;
+}
+
+/* =========Footer section======== */
+.footer-section{
+    width: 1300px;
+    height: 20px;
+background: #FFF4E7;
+border-radius: 8px;
+/* margin: auto; */
+padding: 10px 40px;
+text-align: center;
+margin-bottom: 216px;
+/* margin: 0px 140px; */
+margin-left: 240px;
+
+}
