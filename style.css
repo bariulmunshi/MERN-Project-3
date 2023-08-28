@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans&display=swap');
 /* Common styles */
 body {
-    /* margin: 0%;  */
+    margin: 0%; 
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
